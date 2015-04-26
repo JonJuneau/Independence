@@ -7,8 +7,8 @@ shinyUI(fluidPage(
   # Application title
   titlePanel("Statistical Independence: TWO Binary Variables"),
   p('A binary variable is a variable that take on only two values.  In this \
-    app, the variable\'s value will be called either TRUE or FALSE; however\
-    , this could represent 0 or 1, or Yes or No, etc.'),
+    app, the variable\'s value will be called either TRUE or FALSE; however, \
+    this could represent 0 or 1, or Yes or No, etc.'),
   p('If the variables are related to each other they are said to not be \
     independent.  This app uses the counts in the four possible categories \
     to comnpute the probability that the variables are not related, or \
@@ -51,7 +51,7 @@ shinyUI(fluidPage(
       verbatimTextOutput("chisqP_value"),
       p('If this probability is less than your critical probability, \
         decide that A and B are NOT independent.  Typical values for the \
-        critical probabilites are 5% and 10%.  So, if the probability is \
+        critical probabilites are 5% and 10%.  If the probability is \
         less than either of these values, you should decide that the \
         variables are dependent, not independent.'),
       
